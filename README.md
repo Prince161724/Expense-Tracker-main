@@ -44,3 +44,8 @@ Users can view, update, or delete past transactions.
 Ideal for students, professionals, or households who want to monitor their monthly kharcha.
 
 Can be extended with features like charts (D3.js, Chart.js), authentication (JWT), or export reports.
+
+
+
+To Clone it 
+https://github.com/Prince161724/Expense-Tracker-main.git
