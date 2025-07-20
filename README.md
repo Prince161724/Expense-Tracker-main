@@ -1,55 +1,46 @@
-<img width="725" height="351" alt="image" src="https://github.com/user-attachments/assets/c4c0223b-74c5-44a9-aaf3-d2e9267cfd2a" />Expense Tracker App
+This Expense Tracker is a full-stack web application that allows users to efficiently manage and monitor their daily expenses. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), the app helps you track your Kharcha (expenses), control your budget, and maintain a history of transactions.
 
-This Expense Tracker is a simple web application built with React and utilizes Context API for state management. It helps users track their expenses, manage their budget, and gain insights into their spending habits.
+✨ Features
+Add Expense / Income:
+Easily add new transactions including description, amount, and type (income or expense).
 
-Features:
+Expense Categories:
+Organize your expenses into custom categories like groceries, travel, bills, entertainment, etc.
 
-Add and Remove Transactions: Easily add new transactions with details like description, amount, and category. Remove transactions that are no longer needed.
+Real-Time Balance:
+Automatically calculates and displays your total balance, income, and expenses.
 
-Transaction Categories: Organize transactions by categories like income, groceries, bills, entertainment, etc., for better tracking and analysis.
+Transaction History:
+View your complete transaction history with date-wise records and category tags.
 
-Transaction History: View a history of all transactions with details such as date, description, amount, and category.
+Delete & Update:
+Modify or remove entries to keep your records accurate.
 
-Total Balance: Keep track of your total balance with each transaction update, helping you stay within your budget.
+Backend Integration:
+All data is securely stored in a MongoDB database, and managed through a RESTful API built with Node.js and Express.js.
 
-Technologies Used:
+🛠️ Technologies Used
+Frontend:
+React.js, Context API / Redux, CSS / Bootstrap
 
-React: A JavaScript library for building user interfaces, used for the frontend development of this application.
+Backend:
+Node.js, Express.js, MongoDB (Mongoose)
 
-Context API: A feature in React for managing global state, used here for state management across components.
+Full-Stack Integration:
+REST API for data handling between frontend and backend
 
-CSS: Simple CSS styles are applied for basic styling and layout of the application.
+🚀 How It Works
+User logs in or accesses the app.
 
-Installation:
+Adds expenses or income with description, category, and amount.
 
-Clone the repository:
+App calculates and displays total balance and breakdown.
 
-git clone https://github.com/Prince161724/Expense-Tracker-main.git
+Transactions are stored in MongoDB via Node.js + Express.js API.
 
-Navigate to the project directory:
+Users can view, update, or delete past transactions.
 
-cd expense-tracker
+📦 Use Case
+Ideal for students, professionals, or households who want to monitor their monthly kharcha.
 
-Install dependencies:
-
-npm install
-
-Start the application:
-
-npm start
-
-The application should now be running on http://localhost:3000.
-
-Usage:
-To add a new transaction, click on the "Add Transaction" button, fill in the details, and click "Add Transaction".
-
-To remove a transaction, hover over the transaction in the history and click on the "X" button.
-
-View your transaction history and total balance on the dashboard.
-
-Contributing:
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-![Screenshot (172)](https://github.com/SumitSharma2000/Expense-Tracker/assets/94536005/aa5811aa-f841-4653-9629-852f68026640)
-
+Can be extended with features like charts (D3.js, Chart.js), authentication (JWT), or export reports.
