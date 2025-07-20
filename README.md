@@ -1,4 +1,4 @@
-Expense Tracker App
+<img width="725" height="351" alt="image" src="https://github.com/user-attachments/assets/c4c0223b-74c5-44a9-aaf3-d2e9267cfd2a" />Expense Tracker App
 
 This Expense Tracker is a simple web application built with React and utilizes Context API for state management. It helps users track their expenses, manage their budget, and gain insights into their spending habits.
 
@@ -24,7 +24,7 @@ Installation:
 
 Clone the repository:
 
-git clone https://github.com/sumitsharma2000/expense-tracker.git
+git clone https://github.com/Prince161724/Expense-Tracker-main.git
 
 Navigate to the project directory:
 
